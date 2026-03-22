@@ -1,0 +1,19 @@
+# Virtual env
+xray-cv/
+
+# Python
+__pychace__/
+*.pyc
+
+# Data
+data/
+
+# Models
+models/
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
