@@ -2,11 +2,11 @@
 xray-cv/
 
 # Python
-__pychace__/
+__pycache__/
 *.pyc
 
 # Data
-data/
+data/raw/
 
 # Models
 models/
