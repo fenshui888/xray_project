@@ -1,5 +1,5 @@
 # Virtual env
-xray-cv/
+.venv/
 
 # Python
 __pycache__/

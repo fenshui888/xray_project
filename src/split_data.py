@@ -24,6 +24,8 @@ def split_train_val(data_dir, output_dir, val_ratio=0.2, seed=42):
     if not train_dir.exists():
         raise FileNotFoundError(f"Train directory not found: {train_dir}")
 
+    if val_dir.exists():
+        shutil.rmtree(val_dir)
     os.makedirs(val_dir, exist_ok=True)
 
     for cls in os.listdir(train_dir):
