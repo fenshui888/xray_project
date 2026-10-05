@@ -1,0 +1,6 @@
+{
+  "batch_size": 1,
+  "num_batches_measured": 100,
+  "latency_ms_mean": 3.614918300008867,
+  "latency_ms_p95": 5.120938151412702
+}
